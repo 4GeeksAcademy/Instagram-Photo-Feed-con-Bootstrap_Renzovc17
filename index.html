@@ -13,46 +13,50 @@
 
 <body>
 
-    <div class="container border border-grey border-3 px-0">
-    <!-- NAV BAR -->
+    <div class="container-fluid border border-grey border-3 px-0">
+        <!-- NAV BAR -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-        <div class="container-fluid gap-1 ">
-            <i class="fa-brands fa-instagram fa-2x"></i>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active fs-3" aria-current="page" href="#">Instagram</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid gap-1 ">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-3" aria-current="page" href="#">Instagram</a>
+                    </li>
+                </ul>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <form class="d-flex ms-auto gap-1" role="search">
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">Create a new post</button>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-gear"></i>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
+
+                    <form class="d-flex ms-auto gap-1" role="search">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Create a new post</button>
+
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                                data-bs-display="static" aria-expanded="false">
+                                <i class="fa-solid fa-gear"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-lg-end">
+                                <li><a class="dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item" href="#">Menu item</a></li>
+                            </ul>
+                        </div>
+                </div>
                 </form>
             </div>
-        </div>
+    </div>
     </nav>
 
-    
+
     <!-- NAV & TAP -->
 
     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
@@ -80,28 +84,28 @@
                         <img src="https://picsum.photos/300" class="img-thumbnail w-100" alt="...">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 p-0 ">
-                        <img src="https://picsum.photos/300" class="img-thumbnail w-100" alt="...">
+                        <img src="https://picsum.photos/400" class="img-thumbnail w-100" alt="...">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 p-0 ">
-                        <img src="https://picsum.photos/300" class="img-thumbnail w-100" alt="...">
+                        <img src="https://picsum.photos/600" class="img-thumbnail w-100" alt="...">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 p-0">
-                        <img src="https://picsum.photos/300" class="img-thumbnail w-100" alt="...">
+                        <img src="https://picsum.photos/800" class="img-thumbnail w-100" alt="...">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 p-0">
-                        <img src="https://picsum.photos/300" class="img-thumbnail w-100" alt="...">
+                        <img src="https://picsum.photos/200" class="img-thumbnail w-100" alt="...">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 p-0">
-                        <img src="https://picsum.photos/300" class="img-thumbnail w-100" alt="...">
+                        <img src="https://picsum.photos/100" class="img-thumbnail w-100" alt="...">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 p-0">
-                        <img src="https://picsum.photos/300" class="img-thumbnail w-100" alt="...">
+                        <img src="https://picsum.photos/600" class="img-thumbnail w-100" alt="...">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 p-0">
-                        <img src="https://picsum.photos/300" class="img-thumbnail w-100" alt="...">
+                        <img src="https://picsum.photos/800" class="img-thumbnail w-100" alt="...">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 p-0">
-                        <img src="https://picsum.photos/300" class="img-thumbnail w-100" alt="...">
+                        <img src="https://picsum.photos/400" class="img-thumbnail w-100" alt="...">
                     </div>
                 </div>
             </div>
@@ -112,7 +116,21 @@
         </div>
         <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
 
-            <div class="card mx-auto my-4" style="width: 18rem;">
+            <div class="card mx-auto my-4" style="width: 30rem;">
+                <div class="container d-flex justify-content-between ">
+                    <h1 class="fs-5">Imagen1</h1>
+                    <p>8/26</p>
+                </div>
+                <img src="https://picsum.photos/300" class="card-img-top " alt="...">
+                <div class="card-body">
+                    <h6>200 Likes</h2>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card’s content.</p>
+                </div>
+            </div>
+
+            <div class="card mx-auto  my-4" style="width: 30rem;">
                 <div class="container d-flex justify-content-between ">
                     <h1 class="fs-5">Imagen1</h1>
                     <p>8/26</p>
@@ -126,21 +144,7 @@
                 </div>
             </div>
 
-            <div class="card mx-auto  my-4" style="width: 18rem;">
-                <div class="container d-flex justify-content-between ">
-                    <h1 class="fs-5">Imagen1</h1>
-                    <p>8/26</p>
-                </div>
-                <img src="https://picsum.photos/300" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6>200 Likes</h2>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card’s content.</p>
-                </div>
-            </div>
-
-            <div class="card mx-auto my-4" style="width: 18rem;">
+            <div class="card mx-auto my-4" style="width: 30rem;">
                 <div class="container d-flex justify-content-between ">
                     <h1 class="fs-5">Imagen1</h1>
                     <p>8/26</p>
@@ -175,11 +179,17 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h6>Caption</h6>
-                    <input type="text" class="form-control" placeholder="Add the caption of your post here">
-                    <i class="fa-brands fa-instagram fa-1x"></i>
-                    <i class="fa-solid fa-gear"></i>
-
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Caption</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Add the caption of your post here"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                        <i class="fa-brands fa-instagram fa-1x"></i>
+                    </button>
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                        <i class="fa-solid fa-location-dot" style="color: #030303;"></i>
+                    </button>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -194,8 +204,8 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
-</div>
+    </div>
 
-    </body>
+</body>
 
 </html>
